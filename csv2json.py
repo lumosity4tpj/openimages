@@ -142,7 +142,7 @@ class csv_to_coco(object):
             annotation_single['segmentation'] = a
             annotation_single['bbox'] = x_y_w_h
             annotation_single['id'] = init_id
-            annotation_single['area'] = 1.0
+            annotation_single['area'] = h * w
             annotation_single['iscrowd'] = 0
             # annotation_single['others_info'] = IsOccluded_IsTruncated_IsGroupOf_IsDepiction_IsInside
             print('*'*20)
