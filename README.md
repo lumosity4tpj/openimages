@@ -32,12 +32,8 @@ open_data
     ├── class-descriptions-boxable.csv
     │  
     ├── train-annotations-bbox.csv
-    │  
-    ├── train-images-boxable.csv
-    │  
-    ├── validation-annotations-bbox.csv
     │
-    └── validation-images.csv
+    └── validation-annotations-bbox.csv
 ```
 
 
