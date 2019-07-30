@@ -27,13 +27,13 @@ mmdet_data
  
 open_data    
     │ 
-    ├── bbox_labels_600_hierarchy.json
+    ├── challenge-2019-label500-hierarchy.json
     │
-    ├── class-descriptions-boxable.csv
+    ├── challenge-2019-classes-description-500.csv
     │  
-    ├── train-annotations-bbox.csv
+    ├── challenge-2019-train-detection-bbox.csv
     │
-    └── validation-annotations-bbox.csv
+    └── challenge-2019-validation-detection-bbox.csv
 ```
 
 
@@ -56,3 +56,4 @@ sh transfer_csv2json.sh
 - 更改`CONFIG`中的路径
 - 数据集可以是zip文件，但代码会自动解压，注意留出足够空间
 - `train`,`val`,`test`都在`transfer_csv2json.sh`中，默认情况全运行，根据需要更改
+
