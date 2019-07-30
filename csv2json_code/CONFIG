@@ -1,16 +1,15 @@
-
-CATEGORIES_CSV_PATH=/mnt/Guest/tangpeijun/OpenImages/open_data/class-descriptions-boxable.csv
-CATEGORIES_JSON_PATH=/mnt/Guest/tangpeijun/OpenImages/open_data/bbox_labels_600_hierarchy.json
+CATEGORIES_CSV_PATH=/mnt/Guest/tangpeijun/OpenImages/open_data/challenge-2019-classes-description-500.csv
+CATEGORIES_JSON_PATH=/mnt/Guest/tangpeijun/OpenImages/open_data/challenge-2019-label500-hierarchy.json
 
 
 TRAIN_IMAGE_DIR=/mnt/Guest/tangpeijun/OpenImages/mmdet_data/train_08
+TRAIN_ANNOTATION_CSV_PATH=/mnt/Guest/tangpeijun/OpenImages/open_data/challenge-2019-train-detection-bbox.csv
 TRAIN_JSON_SAVE_PATH=/mnt/Guest/tangpeijun/OpenImages/mmdet_data/train_08.json
-TRAIN_ANNOTATION_CSV_PATH=/mnt/Guest/tangpeijun/OpenImages/open_data/train-annotations-bbox.csv
 
 
 VAL_IMAGE_DIR=/mnt/Guest/tangpeijun/OpenImages/mmdet_data/validation
+VAL_ANNOTATION_CSV_PATH=/mnt/Guest/tangpeijun/OpenImages/open_data/challenge-2019-validation-detection-bbox.csv
 VAL_JSON_SAVE_PATH=/mnt/Guest/tangpeijun/OpenImages/mmdet_data/val.json
-VAL_ANNOTATION_CSV_PATH=/mnt/Guest/tangpeijun/OpenImages/open_data/validation-annotations-bbox.csv
 
 
 TEST_IMAGE_DIR=/mnt/Guest/tangpeijun/OpenImages/mmdet_data/challenge2018
